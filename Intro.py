@@ -103,14 +103,14 @@ print(website2[slice])
 
 age = int(input('What is your age?: '))
 
-# if age == 100:
-#    print('Centurion!')
-# elif age >= 18:
-#    print('You are an Adult!')
-# elif age < 0:
-#   print('Unborn Person')
-# else:
-#   print('You are a child')
+if age == 100:
+    print('Centurion!')
+elif age >= 18:
+    print('You are an Adult!')
+elif age < 0:
+   print('Unborn Person')
+else:
+    print('You are a child')
 
 # TOPIC: logical operators (and,or) = used to check if two or more conditional statements are true.
 # (not) can be used to flip the conditional statements
