@@ -101,7 +101,7 @@ print(website2[slice])
 
 # TOPIC: if statement = a block of code that will execute if its condition is true
 
-# age = int(input('What is your age?: '))
+age = int(input('What is your age?: '))
 
 # if age == 100:
 #    print('Centurion!')
