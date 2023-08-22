@@ -112,17 +112,17 @@ elif age < 0:
 else:
     print('You are a child')
 
-# TOPIC: logical operators (and,or) = used to check if two or more conditional statements are true.
+# TOPIC: logical operators (and, or) = used to check if two or more conditional statements are true.
 # (not) can be used to flip the conditional statements
 
-# temp = int(input('What is the temperature outside?: '))
+temp = int(input('What is the temperature outside?: '))
 
-# if temp >= 0 and temp <= 30:
-# print('feels okay for a picnic!')
-# print('Go outside!')
-# elif temp < 0 or temp > 30:
-# print("That's not a good feel")
-# print('Stay inside!')
+if temp >= 0 and temp <= 30:
+    print('feels okay for a picnic!')
+    print('Go outside!')
+elif temp < 0 or temp > 30:
+    print("That's not a good feel")
+    print('Stay inside!')
 
 # TOPIC: while loop = a statement that will execute it's block of code,
 #               as long as it's condition remains true
