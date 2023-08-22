@@ -124,20 +124,20 @@ elif temp < 0 or temp > 30:
     print("That's not a good feel")
     print('Stay inside!')
 
-# TOPIC: while loop = a statement that will execute it's block of code,
+# TOPIC: while loop = a statement that will execute its block of code,
 #               as long as it's condition remains true
 
 # example of infinite loop below
 
-# while 1 == 1:
-#    print("Help! I'm stuck in a loop")
+#while 1 == 1:
+#   print("Help! I'm stuck in a loop")
 
-# name1 = ''                               # could also use 'name = None'
+name1 = ''                               # could also use 'name = None'
 
-# while len(name1) == 0:                   # could also use 'while not name:'
-#    name1 = input('Enter Your Name: ')
+while len(name1) == 0:                   # could also use 'while not name:'
+        name1 = input('Enter Your Name: ')
 
-# print('Hello '+name)
+print('Hello '+name)
 
 # TOPIC: for loop = a statement that will execute its block of code
 #                    a limited amount of time
